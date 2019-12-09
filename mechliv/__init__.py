@@ -56,11 +56,11 @@ def play_sound():
 
 
 def on_press(key):
-    play_sound()
+    pass
 
 
 def on_release(key):
-    pass
+    play_sound()
 
 
 # noinspection PyMethodMayBeStatic

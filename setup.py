@@ -22,8 +22,7 @@ setup(name='mechliv',
       },
       install_requires=[
           'requests>=2.2.1',
-          'pynput>=1.5.2',
-          'playsound>=1.2.2'
+          'pynput>=1.5.2'
       ],
       entry_points={
           'console_scripts': ['mechliv = mechliv:main'],
